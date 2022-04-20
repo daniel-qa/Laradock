@@ -19,4 +19,9 @@ $ docker-compose up -d nginx mysql workspace
 這個例子中，我們將看到如何運行 NGINX（Web 服務器）和 MySQL（數據庫引擎）來託管 PHP Web 腳本：
 ```
 docker-compose up -d nginx mysql
+
+# 查詢 port
+netstat -ant | grep 9083
+
 ```
+
