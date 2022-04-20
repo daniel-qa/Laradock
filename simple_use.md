@@ -21,7 +21,7 @@ $ docker-compose up -d nginx mysql workspace
 docker-compose up -d nginx mysql
 
 # 查詢 port
-netstat -ant | grep 9083
+netstat -ant | grep 8080
 
 ```
 
