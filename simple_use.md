@@ -20,6 +20,8 @@ $ docker-compose up -d nginx mysql workspace
 ```
 docker-compose up -d nginx mysql
 
+docker-compose up -d mysql phpmyadmin
+
 # 查詢 port
 netstat -ant | grep 8080
 
