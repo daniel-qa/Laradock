@@ -24,6 +24,6 @@ docker-compose up -d mysql phpmyadmin
 
 # 查詢 port
 netstat -ant | grep 8080
-p.s 8080 有提到要提供 nginx 使用
+p.s 8080 要提供 nginx 使用
 ```
 
