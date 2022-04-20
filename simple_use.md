@@ -1,5 +1,5 @@
 ## 安裝
-git submodule add https://github.com/Laradock/laradock.git
+git clone https://github.com/Laradock/laradock.git
 ## 開始建置我們的環境
 在 laradock/ 資料夾裡面執行
 ```
