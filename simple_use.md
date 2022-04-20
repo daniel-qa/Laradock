@@ -7,3 +7,9 @@ $ docker-compose up -d nginx mysql workspace
 
 這邊的參數不能省略！省略了會一次打開所有的服務，電腦會撐不住！
 
+
+### Sample
+這個例子中，我們將看到如何運行 NGINX（Web 服務器）和 MySQL（數據庫引擎）來託管 PHP Web 腳本：
+```
+docker-compose up -d nginx mysql
+```
