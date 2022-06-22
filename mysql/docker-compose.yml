@@ -1,3 +1,18 @@
+# 只出共用，及 MYSQL 相關的部分
+
+ersion: '3.5'
+
+networks:
+  frontend:
+    driver: ${NETWORKS_DRIVER}
+  backend:
+    driver: ${NETWORKS_DRIVER}
+volumes:
+  mysql:
+    driver: ${VOLUMES_DRIVER}
+
+services:
+
 
 ### MySQL ################################################
     mysql:
