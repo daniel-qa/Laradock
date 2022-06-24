@@ -29,6 +29,9 @@ APP_CODE_PATH_HOST=../Projects/laravel
 
 cd Laradock
 docker-compose up -d nginx mysql phpmyadmin
+
+# docker-compose up -d nginx
+
 ``` 
 
 # 設定 MySQL
