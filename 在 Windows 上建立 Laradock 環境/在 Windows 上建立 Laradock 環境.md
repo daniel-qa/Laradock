@@ -1,3 +1,4 @@
+```
 在 Windows 上建立 Laradock 環境
 MEMO'S BLOG 2019-07-11  Laradock  Docker, Laradock, Laravel, Windows, 環境部署
 環境
@@ -65,3 +66,4 @@ DB_PASSWORD=secret
 執行遷移。
 
 laradock@107a4945c6fe:/var/www$ php artisan migrate
+```
