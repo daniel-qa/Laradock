@@ -21,7 +21,7 @@ git clone https://github.com/Laradock/laradock.git Laradock
 複製範本 env-example 檔作為設定檔。
 
 cd Laradock
-cp env-example .env
+cp .env-example .env
 修改 .env 檔的 APP_CODE_PATH_HOST 參數到指定的映射路徑：
 
 APP_CODE_PATH_HOST=../Projects/laravel
