@@ -1,14 +1,15 @@
 ```
 在 Windows 上建立 Laradock 環境
 MEMO'S BLOG 2019-07-11  Laradock  Docker, Laradock, Laravel, Windows, 環境部署
-環境
-Windows 10
-Docker for Windows 2.0.0.3
-前言
-以下採用單一專案的方式建立環境。
+# 環境
+ Windows 10
+ Docker for Windows 2.0.0.3
 
-安裝 Laradock
-從 GitHub 上將 Laradock 下載下來。
+# 前言
+ 以下採用單一專案的方式建立環境。
+
+# 安裝 Laradock
+ 從 GitHub 上將 Laradock 下載下來。
 
 git clone https://github.com/Laradock/laradock.git Laradock
 複製範本 env-example 檔作為設定檔。
@@ -22,8 +23,9 @@ APP_CODE_PATH_HOST=../Projects/laravel
 
 cd Laradock
 docker-compose up -d nginx mysql phpmyadmin
-設定 MySQL
-修改 mysql\my.cnf 檔：
+
+# 設定 MySQL
+ 修改 mysql\my.cnf 檔：
 
 [mysqld]
 default_authentication_plugin=mysql_native_password
@@ -52,7 +54,7 @@ docker-compose exec --user=laradock workspace bash
 
 laradock@107a4945c6fe:/var/www$ composer global require laravel/installer
 
-建立專案。
+# 建立專案。
 laradock@107a4945c6fe:/var/www$ laravel new
 修改 .env 檔。
 
